@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "Karla-Regular";
+  src: url(./Karla-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Karla-Bold";
+  src: url(./Karla-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(./Interwoven.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fffbff;
+  font-family: "Karla-Bold";
+}
+
+.container {
+  width: 80%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #2f2f2f;
+  margin-top: 2.5em;
+  margin-bottom: 0.3em;
+}
+
+span {
+  color: #ffad05;
+}
+
+h3 {
+  color: #93827f;
+  font-weight: 200;
+}
+
+button {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  padding: 0.75em 2em;
+  color: #2f2f2f;
+  background-color: #ffad05;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+hr {
+  margin-top: 1em;
+  margin-bottom: 2em;
+  border: 1px solid #93827f;
+}
+
+.passwords-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+.passwords-section div {
+  padding: 0.5em;
+  background-color: #2f2f2f;
+  width: 40%;
+  border-radius: 5px;
+  color: #ffad05;
+  text-align: center;
+}
+
+.passwords-section div:hover {
+  cursor: pointer;
+}
+
+.passwords-section p {
+  height: 1.5em;
+}
